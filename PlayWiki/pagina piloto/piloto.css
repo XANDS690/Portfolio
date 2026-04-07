@@ -1,0 +1,200 @@
+/*nome da tag que esta sendo "estilizada"*/
+body{
+    /*"margin" esta definindo o espaço externo ao redor de um elemento, ou seja afasta um elemento de outros elementos próximos*/
+    /*"padding" esta defininfo o espaço interno de um elemento e sua borda*/
+    margin: 0;
+    padding: 0;
+    /*colocando imagem de fundo o site utilizando "background-image"*/
+    background-image: url(./img/5073414.jpg);
+    /*definindo o estilo da fonte com "font-family"*/
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/*Conteudo Principal do site*/
+/*O "."(pont final) indica que é uma classe("class")*/
+.MainMenu{
+    /*Define a posição do elemento*/
+    position: absolute;
+    /*Ao utilizar o border podemos manipular a borda do elemento, seus atributos no caso são: "solid" que define que a borda ira aparecer no site, "1px" esta definindo a "grossura" da borda, "black" está definindo a cor da borda*/
+    border: solid 1px black;
+    /*"Border-radius" define o arredondamento dos cantos da borda do elemento, nesse caso está definindo o arredondamento da parte inferior esquerda e direita como "30px"*/
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    /*"width" define largura do elemento, que nesse caso está em "100%"*/
+    width: 100%;
+    /*"height" define a altura do elemnto*/
+    height: 15%;
+    /*definindo a cor de fundo do elemento*/
+    background-color: rgb(184, 179, 179);
+    /*deixando o elemento centralizado*/
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+.pes{
+
+    position: relative;
+    width: 30%;
+    top: 35%;
+    height: 40px;
+    border-radius: 50px;
+
+}
+/*--------------------------------------------------------------------------*/
+.content{
+
+    position: absolute;
+    border: solid 1px black;
+    border-radius: 50px;
+    width: 60%;
+    height: 170%;
+    /*"top, bottom, left e right" determina o quão distante o elemnto est*/
+    top: 40%;
+    left: 19.5%;
+    background-color: rgb(184, 179, 179);
+    
+    
+
+    
+
+}
+.tituJg{
+
+    position: relative;
+    border-bottom: solid 1px;
+    left: 35%;
+    width: 35%;
+    font-size: 40px;
+    display: flex;
+
+
+}
+.Mainhist{
+
+    position: relative;
+   
+    
+
+}
+.hist{
+
+    position: relative;
+    border-bottom: solid 1px;
+    left: 10%;
+    top: 5%;
+    width: 35%;
+    font-size: 40px;
+   
+
+}
+.histtext{
+
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 90%;
+    font-size: 25px;
+
+}
+/*---------------------------------------------------------------------------*/
+.conq{
+
+    position: relative;
+
+}
+.TitConq{
+
+    position: relative;
+    border-bottom: solid 1px;
+    left: 10%;
+    top: 5%;
+    width: 35%;
+    font-size: 40px;
+    
+}
+.ConqText{
+
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 90%;
+    font-size: 25px;
+
+}
+/*--------------------------------------------------------------------------*/
+.control{
+
+    position: relative;
+
+}
+.TitControl{
+
+    position: relative;
+    border-bottom: solid 1px;
+    left: 10%;
+    top: 5%;
+    width: 35%;
+    font-size: 40px;
+
+}
+.ControlText{
+
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 90%;
+    font-size: 25px;
+
+}
+/*--------------------------------------------------------------------------*/
+.colet{
+
+    position: relative;
+
+}
+.TitColet{
+
+    position: relative;
+    border-bottom: solid 1px;
+    left: 10%;
+    top: 5%;
+    width: 35%;
+    font-size: 40px;
+
+}
+.ColetText{
+
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 90%;
+    font-size: 25px;
+
+}
+/*--------------------------------------------------------------------------*/
+.map{
+
+    position: relative;
+
+}
+.TitMap{
+
+    position: relative;
+    border-bottom: solid 1px;
+    left: 10%;
+    top: 5%;
+    width: 35%;
+    font-size: 40px;
+
+}
+.MapText{
+
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 90%;
+    font-size: 25px;
+
+}

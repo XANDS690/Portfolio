@@ -1,0 +1,266 @@
+/*nome da tag que esta sendo "estilizada"*/
+body{
+    /*"margin" esta definindo o espaço externo ao redor de um elemento, ou seja afasta um elemento de outros elementos próximos*/
+    /*"padding" esta defininfo o espaço interno de um elemento e sua borda*/
+    margin: 0;
+    padding: 0;
+    /*colocando imagem de fundo o site utilizando "background-image"*/
+    background-image: url(guitarhero_\ 1.png);
+    /*definindo o estilo da fonte com "font-family"*/
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/*Conteudo Principal do site*/
+/*O "."(pont final) indica que é uma classe("class")*/
+.MainMenu{
+    /*Define a posição do elemento*/
+    position: absolute;
+    /*Ao utilizar o border podemos manipular a borda do elemento, seus atributos no caso são: "solid" que define que a borda ira aparecer no site, "1px" esta definindo a "grossura" da borda, "black" está definindo a cor da borda*/
+    border: solid 1px black;
+    /*"Border-radius" define o arredondamento dos cantos da borda do elemento, nesse caso está definindo o arredondamento da parte inferior esquerda e direita como "30px"*/
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    /*"width" define largura do elemento, que nesse caso está em "100%"*/
+    width: 100%;
+    height: 15%;
+    background-color: rgb(185, 19, 19);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+.play{
+
+    position: relative;
+    bottom: 78%;
+    font-size: 90px;
+    font-family: fantasy;
+    color: #020927;
+    border-bottom: solid 1px;
+    width: 100%;
+    height: 102%;
+
+
+}
+.linka{
+
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    left: 37%;
+
+}
+a{
+    /*deixa o texto com um link como se fosse um texto normal*/
+    text-decoration: none;
+}
+/*--------------------------------------------------------------------------*/
+.content{
+
+    position: absolute;
+    border: solid 1px black;
+    border-radius: 50px;
+    width: 65%;
+    height: 1480%;
+    top: 40%;
+    left: 19.5%;
+    background-color: rgb(185, 19, 19);
+    
+
+    
+
+}
+.tituJg{
+
+    position: relative;
+    border-bottom: solid 1px;
+    left: 0%;
+    width: 100%;
+    font-size: 40px;
+    display: flex;
+
+
+}
+.Mainhist{
+
+    position: relative;
+   
+    
+
+}
+.hist{
+
+    position: relative;
+    border-bottom: solid 1px;
+    left: 10%;
+    top: 5%;
+    width: 35%;
+    font-size: 40px;
+   
+
+}
+.histtext{
+
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 85%;
+    font-size: 25px;
+
+}
+/*---------------------------------------------------------------------------*/
+.Trilha{
+
+    position: relative;
+
+}
+.TitTrilha{
+
+    position: relative;
+    border-bottom: solid 1px;
+    left: 10%;
+    top: 5%;
+    width: 35%;
+    font-size: 40px;
+    
+}
+.TrilhaText{
+
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 85%;
+    font-size: 25px;
+
+
+}
+/*--------------------------------------------------------------------------*/
+.jogabil{
+
+    position: relative;
+
+}
+.TitJogabil{
+
+    position: relative;
+    border-bottom: solid 1px;
+    left: 10%;
+    top: 5%;
+    width: 35%;
+    font-size: 40px;
+
+}
+.jogabilText{
+
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 85%;
+    font-size: 25px;
+
+
+}
+/*--------------------------------------------------------------------------*/
+.Person{
+
+    position: relative;
+
+}
+.TitPerson{
+
+    position: relative;
+    border-bottom: solid 1px;
+    left: 10%;
+    top: 5%;
+    width: 35%;
+    font-size: 40px;
+
+}
+.PersonText{
+
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 85%;
+    font-size: 25px;
+
+
+}
+/*--------------------------------------------------------------------------*/
+li {
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 85%;
+    font-size: 25px;  
+}
+
+p{
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 100%;
+    font-size: 25px;   
+}
+
+img {
+    width: 100%;
+}
+
+/*--------------------------------------------------------------------------*/
+.Cheats{
+
+    position: relative;
+
+}
+.TitCheats{
+
+    position: relative;
+    border-bottom: solid 1px;
+    left: 10%;
+    top: 5%;
+    width: 35%;
+    font-size: 40px;
+
+}
+.CheatsText{
+
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 85%;
+    font-size: 25px;
+
+
+}
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+.Conclu{
+
+    position: relative;
+
+}
+.TitConclu{
+
+    position: relative;
+    border-bottom: solid 1px;
+    left: 10%;
+    top: 5%;
+    width: 35%;
+    font-size: 40px;
+
+}
+.ConcluText{
+
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 85%;
+    font-size: 25px;
+
+
+}
+/*--------------------------------------------------------------------------*/

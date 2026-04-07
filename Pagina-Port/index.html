@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--linkando fontes externas-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body class="body">
+    <!--minha foto de apresentação-->
+    <img class="img" src="./img/logo.jpeg" alt="" width="300px" height="300px">
+    <h2 class="nome1">Pedro Emanuel Rodrigues Paiva</h2> 
+    
+        <div class="theme" onclick="corMain()"><i class="bi bi-moon-stars" id="moon"></i></div>
+
+
+    <!--conteudo principal-->
+    <nav class="main1">
+
+        <div class="sobre1">
+            <h1 class="titu1">Sobre Mim</h1>
+            <h2 class="text1">Olá, me chamo Pedro Emanuel, sou desenvolvedor web iniciante, estou a procura de um emprego na area.
+                <br>No momento estou cursando ADS(Análise e Desenvolvimanto de Sistemas) 
+                <br>Sempre gostei de aprender a pesquisar assuntos que me interessasse. 
+                <br>Estou sempre aprendendo e estudando cada vez mais. 
+                <br>Certificado: Programador de Computadores - Proz
+                <!--Minhas habilidades com programação-->
+                <br>Habilidades:
+
+                <div class="carrossel-container">
+    <div class="carrossel">
+        <div class="Hab1">
+            <div class="java1">
+                <p class="miniseg">Javascript</p>
+                <img class="imghab1" src="./img/js.jpg" alt="Javascript" width="50px" height="50px">
+            </div>
+            <div class="html1">
+                <p class="miniseg1">HTML</p>
+                <img class="imghab1" src="./img/html.jpg" alt="HTML" width="50px" height="50px">
+            </div>
+            <div class="css1">
+                <p class="miniseg1">CSS</p>
+                <img class="imghab1" src="./img/css.jpg" alt="CSS" width="50px" height="50px">
+            </div>
+        </div>
+        
+        <!-- Botões de navegação -->
+        <button class="btn-prev" onclick="moveCarrossel(-1)">❮</button>
+        <button class="btn-next" onclick="moveCarrossel(1)">❯</button>
+        
+        <!-- Indicadores 
+        <div class="indicadores">
+            <span class="indicador ativo" onclick="atualSlide(1)"></span>
+            <span class="indicador" onclick="atualSlide(2)"></span>
+            <span class="indicador" onclick="atualSlide(3)"></span>
+        </div>-->
+    </div>
+</div>
+        
+            </h2>
+        </div>
+                <!--Meus projetos, durante os cursos e sozinho também-->
+        <div class="Proj">
+            <h1 class="TitProj1">Meus Projetos</h1>
+                <div class="SegProj">
+                    <a href="./PlayWiki/cadastro/ndex.html" class="pro1"><h2>PlayWiki <br> Site de curiosidades gamers, com trofeus, guias, dicas e muito mais. (Prototipo) </h2></a>
+                    <img src="./img/play.jpg" alt="" height="400px" width="107%" style="border-radius: 20px;">
+                
+                    <a href="https://xands690.github.io/Renova/" class="pro2"><h2>Renova Laces <br> Site para vendas de laces. (Prototipo) </h2></a>
+                    <img class="imgrenova" src="./img/renova.jpg" alt="" height="400px" width="107%" style="border-radius: 20px;">
+                
+                    <a href="./MCdonalds/index.html" class="pro3"><h2>MC donald's <br> Um projeto para testar minhas habilidades.</h2></a>
+                    <img class="imgrenova1" src="./img/star.jpg" alt="" height="400px" width="107%" style="border-radius: 20px;">
+
+
+            </div>
+
+        </div>
+
+    </nav>
+    <script src="script.js"></script>
+</body>
+</html>

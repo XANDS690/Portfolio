@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/fundAC.jpg);
+    background-repeat: no-repeat;
+    background-size: 110% 100%;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a{
+    
+    text-decoration: none;
+
+
+}
+.MainMenu{
+    position: absolute;
+    border: solid 1px black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(184, 179, 179);
+
+
+
+}
+.play{
+
+    position: relative;
+    left: 41%;
+    bottom: 56%;
+    font-size: 90px;
+    font-family: fantasy;
+    color: #020927;
+    border-bottom: solid 1px;
+    width: 20%;
+
+}
+/*--------------------------------------------------------------------------*/
+.content{
+
+    position: absolute;
+    border: solid 1px black;
+    border-radius: 50px;
+    width: 60%;
+    height: 2505%;
+    top: 40%;
+    left: 19.5%;
+    background-color: rgb(184, 179, 179);
+    
+    
+
+    
+
+}
+.tituJg{
+
+    position: relative;
+    border-bottom: solid 1px;
+    left: 35%;
+    width: 35%;
+    font-size: 40px;
+    display: flex;
+
+
+}
+.MainHist{
+
+    position: relative;
+   
+    
+
+}
+.hist{
+
+    position: relative;
+    border-bottom: solid 1px;
+    left: 10%;
+    top: 5%;
+    width: 35%;
+    font-size: 40px;
+   
+
+}
+.histtext{
+
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 81%;
+    font-size: 20px;
+
+}
+/*---------------------------------------------------------------------------*/
+.conq{
+
+    position: relative;
+
+}
+.TitConq{
+
+    position: relative;
+    border-bottom: solid 1px;
+    left: 10%;
+    top: 5%;
+    width: 35%;
+    font-size: 40px;
+    
+}
+.ConqText{
+
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 81%;
+    font-size: 20px;
+
+}
+.bronze{
+    color: rgb(139, 97, 5);
+}
+.prata{
+    color: #777373;
+}
+.ouro{
+    color: rgb(253, 253, 139);
+}
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+.colet{
+
+    position: relative;
+
+}
+.TitColet{
+
+    position: relative;
+    border-bottom: solid 1px;
+    left: 10%;
+    top: 5%;
+    width: 35%;
+    font-size: 40px;
+
+}
+.ColetText{
+
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 81%;
+    font-size: 20px;
+
+}
+.subtit{
+
+    font-size: 30px;
+
+}
+/*--------------------------------------------------------------------------*/
+.map{
+
+    position: relative;
+
+}
+.TitMap{
+
+    position: relative;
+    border-bottom: solid 1px;
+    left: 10%;
+    top: 5%;
+    width: 35%;
+    font-size: 40px;
+
+}
+.MapText{
+
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 81%;
+    font-size: 20px;
+
+}

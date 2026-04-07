@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../img_login/ico.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>Cadastre-se</title>
+</head>
+<body>
+    
+    <h1 class="Play">PlayWiki</h1>
+    <h3 class="Play2">Cadastre-se em nosso site e fique por dentro <br> de tudo que acontece  no mundo dos games</h3>
+    <h3 class="Play3">Já tem uma conta? <a href="../login/index.html" class="alogin">Faça login</a></h3>
+        <main class="Content">
+            <div class="SubContent">
+                <h2 class="Tit">Cadastre-se</h2>
+                </div>
+                    <div class="inpu">
+                        <a class="ema">E-mail:</a>
+                        <input type="email" class="email" id="email" onkeypress="enviarbut(event)"><br>
+                        <a class="senha">Senha:</a>
+                        <input type="password" class="pass" onkeypress="enviarbut(event)" id="senha"><i class="bi bi-eye-fill" id="eye" onclick="mostrar()"  ></i>
+
+                </div>
+                    <button onclick="enviar()" class="enviar" id="enviar">ENVIAR</button>
+            </main>
+
+
+
+            <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

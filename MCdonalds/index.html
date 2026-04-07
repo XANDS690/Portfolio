@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Starbucks Website Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="sec">
+    <div class="clip"></div>
+    <header>
+      <a href="#"><img src="McDonalds (2).png" class="logo"></a>
+      <ul class="navigation">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Cardápio</a></li>
+        <li><a href="#">Mais</a></li>
+        
+      </ul>
+    </header>
+    <div class="content">
+      <div class="textBox">
+        <h2>Amo muito tudo isso<br> <span>Mc Donald's</span></h2>
+        <p id="text">Um delicioso sanduiche com dois hamburgueres e um molho especial, uma explosão de sabor</p>
+        <a href="https://www.mcdonalds.com.br/">Ver mais</a>
+      </div>
+      <div class="imgBox">
+        <img src="ha11 (1).png" class="pepsi">
+      </div>
+    </div>
+    <ul class="thumb">
+      <li><img src="ha11 (1).png" onclick="escolha(1)"></li>
+      <li><img src="Q22 (1).png" onclick="escolha(2)"></li>
+      <li><img src="BA3.png" onclick="escolha(3)"></li>
+    </ul>
+    <ul class="sci">
+      <li><a href="https://www.facebook.com/McDonalds"><img src="facebook.png"></a></li>
+      <li><a href="https://twitter.com/McDonalds"><img src="twitter.png"></a></li>
+      <li><a href="https://www.instagram.com/mcdonalds_br/"><img src="instagram.png"></a></li>
+    </ul>
+  </section>
+  <script type="text/javascript">
+
+    img = document.querySelector(".pepsi")
+    corf = document.querySelector(".clip")
+    descricao = document.querySelector("#text")
+
+    function escolha(opc){
+
+      texto1 = "Um delicioso sanduiche com dois hamburgueres e um molho especial, uma explosão de sabor"
+      texto2 = "Um sanduiche simples, porém delicioso, com um hamburguer e muito queijo"
+      texto3 = "Sanduiche com muito bacon, queijo e dois hamburgueres, uma presente divino, venha já comer o seu "
+
+
+      switch(opc){
+
+
+
+        case 1:
+          mudar("ha11 (1).png", "#9b0101", texto1)
+          break
+
+        case 2:
+          mudar("Q22 (1).png", "#9b0101", texto2)
+          break
+
+        case 3:
+          mudar("BA3.png", "#9b0101", texto3)
+
+      }
+    }
+    function mudar(img1, cor, texto){
+
+    img.src = img1
+    corf.style.background = cor
+    descricao.textContent = texto
+
+    }
+
+  </script>
+</body>
+</html>
