@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/fundBlack.png);
+    background-repeat: no-repeat;
+    background-size: 110% 100%;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a{
+    
+    text-decoration: none;
+
+
+}
+.MainMenu{
+    position: absolute;
+    border: solid 1px black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(80, 78, 78);
+
+
+
+}
+.play{
+
+    position: relative;
+    left: 41%;
+    bottom: 50%;
+    font-size: 90px;
+    font-family: fantasy;
+    color: #020927;
+    border-bottom: solid 1px;
+    width: 20%;
+
+}
+/*------------------------------------------------------------------------*/
+.content{
+
+    position: absolute;
+    border: solid 1px black;
+    border-radius: 50px;
+    width: 60%;
+    height: 170%;
+    /*"top, bottom, left e right" determina o quão distante o elemnto est*/
+    top: 40%;
+    left: 19.5%;
+    background-color: rgb(80, 78, 78);
+    
+    
+
+    
+
+}
+.tituJg{
+
+    position: relative;
+    border-bottom: solid 3px;
+    left: 40%;
+    width: 20%;
+    font-size: 40px;
+    display: flex;
+
+
+}
+.Mainhist{
+
+    position: relative;
+   
+    
+
+}
+.hist{
+
+    position: relative;
+    border-bottom: solid 1px;
+    left: 10%;
+    top: 5%;
+    width: 35%;
+    font-size: 40px;
+   
+
+}
+.histtext{
+
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 85%;
+    font-size: 25px;
+
+}
+/*---------------------------------------------------------------------------*/
+.conq{
+
+    position: relative;
+
+}
+.TitConq{
+
+    position: relative;
+    border-bottom: solid 1px;
+    left: 10%;
+    top: 5%;
+    width: 35%;
+    font-size: 40px;
+    
+}
+.ConqText{
+
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 90%;
+    font-size: 25px;
+
+}
+/*--------------------------------------------------------------------------*/
+.control{
+
+    position: relative;
+
+}
+.TitControl{
+
+    position: relative;
+    border-bottom: solid 1px;
+    left: 10%;
+    top: 5%;
+    width: 35%;
+    font-size: 40px;
+
+}
+.ControlText{
+
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 90%;
+    font-size: 25px;
+
+}
+/*--------------------------------------------------------------------------*/
+.colet{
+
+    position: relative;
+
+}
+.TitColet{
+
+    position: relative;
+    border-bottom: solid 1px;
+    left: 10%;
+    top: 5%;
+    width: 35%;
+    font-size: 40px;
+
+}
+.ColetText{
+
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 90%;
+    font-size: 25px;
+
+}
+/*--------------------------------------------------------------------------*/
+.map{
+
+    position: relative;
+
+}
+.TitMap{
+
+    position: relative;
+    border-bottom: solid 1px;
+    left: 10%;
+    top: 5%;
+    width: 35%;
+    font-size: 40px;
+
+}
+.MapText{
+
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 90%;
+    font-size: 25px;
+
+}

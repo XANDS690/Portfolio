@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!-- Declara que o documento é um HTML5 -->
+<html lang="en">
+<!-- Inicia o elemento HTML e define o idioma da página como inglês -->
+
+<head>
+    <!-- Inicia a seção de cabeçalho da página, onde se colocam metadados e links para recursos externos -->
+
+    <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres como UTF-8, permitindo que a página suporte a maioria dos caracteres, incluindo acentos e símbolos -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ajusta o layout da página para que ela seja responsiva, adequando-se ao tamanho da tela do dispositivo (como celular, tablet, etc.) -->
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Conecta a página a um arquivo CSS externo chamado "style.css" para estilização -->
+
+    <link rel="shortcut icon" href="../img/control.jpg" type="image/x-icon">
+    <!-- Define o favicon (ícone exibido na aba do navegador) como "control.jpg" localizado na pasta "img" no diretório acima -->
+
+    <title>PlayWiki</title>
+    <!-- Define o título da página, que será exibido na aba do navegador -->
+
+    <script defer src="script.js"></script>
+    <!-- Conecta a página a um arquivo JavaScript externo chamado "script.js" e usa o atributo "defer" 
+         para garantir que o script será executado apenas depois que o HTML for totalmente carregado -->
+
+</head>
+<!-- Fecha a seção de cabeçalho -->
+
+<body>
+    
+    <!--topo do site, area de pesquisa e outros links-->
+    <!--"header" é o cabeçalho do site-->
+    <!--"input" é utilizado para inserir um texto, nesse caso, para pesquisa -->
+    <!--"class" determina a qual classe esse elemento pertence(varios elementos podem pertencer a mesma classe)-->
+    <header class="MainMenu">
+        <!--Nome grande do site <a href="../pagina inicial/index.html"> serve para colocar links dentro do site-->
+        <a href="index.html" class="linka"><h1 class="play">PLAYWIKI</h1></a>
+        
+    </header>
+
+    <!--botão que faz o menu lateral aparecer-->
+    <button class="hiden" id="hiden">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+   </button>
+
+<!--menu ateral-->
+    <div class="SegMenu" id="SegMenu">
+        <h1 class="TitleSeg">Categorias</h1>
+        <!--"id" determina o id do elemento(cada elemento pode conter somente um id)-->
+        <h2 class="acao" id="acao">AÇÃO</h2>
+        <h2 class="rit" id="rit">RITMO</h2>
+        <h2 class="CorrVo" id="CorrVo">CORRIDA&VÔO</h2>
+
+
+      
+
+    </div>  
+    <div class="SegAcao" id="SegAcao">
+        <a href="../jogo_AC_Black_Flag/Black_Flag.html" class="b">Assassin's Creed Black Flag</a>
+        <br><br>
+        <a href="../jogo_BLACK/black.html" class="b">Black</a>
+        </div>
+
+        <div class="SegCor" id="SegCor">
+            <a href="../jogo_Midnight Club 3 DUB Edition/midnight.html" class="b">Midnight Club 3 DUB Edition</a>
+        </div>
+
+        <div class="SegRit" id="SegRit">
+            <a href="../jogo_Guitar Hero/guitaHero3.html" class="b">Guitar Hero III Legends Of Rock</a>
+        </div>
+       
+
+
+    
+    <!--area com o conteudo do site. Onde estarao os jogos por exemplo-->
+    <!--"main" é utilizada pra envolver o conteudo principal do site :)-->
+    <main class="content">
+
+        <h2 class="intro">Bem-vindo ao PlayWiki, o seu portal definitivo para guias e dicas de jogos! Aqui, você encontra conteúdos detalhados e confiáveis para explorar, dominar e aproveitar ao máximo seus jogos favoritos. Seja você um iniciante ou um veterano, o PlayWiki é o lugar certo para transformar cada desafio em uma vitória. Explore, jogue e vença!</h2>
+        <div class="jg1">
+            <!--link para outras paginas-->
+            <a href="../jogo_AC_Black_Flag/Black_Flag.html" id="black">
+                <!--imagem do jogo, definindo o tamanho com "width" e "heigth"-->
+            <img src="../img/ac4.png" alt="" width="200px" height="220px" class="imgac">
+            <b><a class="titleac">Assassin's creed <a class="Segcor">Black Flag</a></a></b>
+            <p class="descac">É 1715. Piratas governam o Caribe, aterrorizando os mares e humilhando impérios. Afundando navios de guerra para conquistar fortalezas, o capitão Edward Kenway fará tudo para ganhar fortuna e se tornar uma lenda.</p>
+        </div>
+        </a>
+        <div class="jg2">
+            <a href="../jogo_Midnight Club 3 DUB Edition/midnight.html">
+            <img src="../jogo_Midnight Club 3 DUB Edition/download.jpeg" alt="" width="200px" height="220px" class="imggta">
+            <a class="titlegta">Midnight Club 3 DUB Edition</a>
+            <p class="descgta">Assim como os jogos anteriores da série, Midnight Club 3: DUB Edition se concentra em corridas de rua em cidades reais. O modo carreira exige que o jogador participe de corridas ilegais para se tornar o melhor corredor de rua, enquanto que o modo arcade oferece a liberdade de participar de corridas em opções de um ou múltiplos jogadores com a capacidade de personalizar as condições da competição.</p>
+        
+        </a>
+        </div>
+        <div class="jg3">
+            <a href="../jogo_Guitar Hero/guitaHero3.html">
+            <img src="../jogo_Guitar Hero/guitarhero_ 1.png" alt="" width="200px" height="220px" class="imgdead">
+            <a class="titledead">Guitar Hero III Legends Of Rock</a>
+            <p class="descdead">Em Guitar Hero III, o jogador controla uma banda iniciante que faz um contrato com Lou, um empresário misterioso 
+                que depois de levar o grupo ao estrelato revela ser o próprio Diabo. Os músicos, então, são forçados a batalhar contra
+                 ele no submundo por suas almas.</p>
+            
+                </a>
+        </div>
+
+    </main>
+</body>
+</html>

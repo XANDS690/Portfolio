@@ -1,0 +1,97 @@
+body{
+
+
+    background: linear-gradient(to right,rgb(3, 3, 128), rgb(71, 95, 204));
+    background-blend-mode: multiply;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+     
+}
+.mainLogin{
+
+    position: absolute;
+    background-color: rgb(6, 13, 70);
+    width: 50%;
+    height: 55%;
+    top: 25%;
+    left: 25%;
+    border-radius: 3%;
+
+}
+
+.loginTop{
+
+    font-size: 25px;
+    position: relative;
+    left: 10%;
+    top: 10%;
+
+}
+.email, .inEmail{
+
+    position: relative;
+    left: 10%;
+    top: 10%;
+
+
+}.inEmail{
+
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    width: 40%;
+    height: 8%;
+    border-color: blue;
+    background-color: transparent;
+    color: white;
+    
+
+
+}
+.inEmail::placeholder{
+
+    color: rgb(131, 128, 128);
+    
+
+}
+.inSenha::placeholder{
+
+    color: rgb(131, 128, 128);
+    
+
+}
+
+
+.senha, .inSenha{
+
+    position: relative;
+    left: 10%;
+    top: 10%;
+
+
+}.inSenha{
+
+    margin-top: 5px;
+    border-radius: 20px;
+    width: 40%;
+    height: 8%;
+    border-color: rgb(0, 0, 255);
+    background-color: transparent;
+    color: white;
+
+}
+button{
+
+    position: relative;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    left: -31%;
+    top: 25%;
+    width: 40%;
+    color: white;
+    background-color: rgb(54, 54, 138);
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}

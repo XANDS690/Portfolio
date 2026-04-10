@@ -1,0 +1,375 @@
+/*nome da tag que esta sendo "estilizada"*/
+body{
+    /*"margin" esta definindo o espaço externo ao redor de um elemento, ou seja afasta um elemento de outros elementos próximos*/
+    /*"padding" esta defininfo o espaço interno de um elemento e sua borda*/
+
+    /*colocando imagem de fundo o site utilizando "background-image"*/
+    background: linear-gradient(
+        to right,  /* Direção: de cima-esquerda para baixo-direita, para fluxo natural */
+        #000000 0%,       /* Preto puro no início */
+        #14141a 25%,      /* Intermediário sutil (mistura de cinzas para suavidade) */
+        rgb(34, 34, 43) 50%,      /* rgb(18, 18, 27) no meio, para profundidade */
+        #101016 75%,      /* rgb(25, 25, 37) para um toque azulado escuro */
+        #000000 100%      /* Volta ao preto para fechamento suave */
+    );
+    /*definindo o estilo da fonte com "font-family"*/
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: 200% 100%;
+    animation: backgroundAnimation 12s infinite;
+
+}
+
+/*nome da classe ("class") que esta sendo "estlizada"*/
+.MainMenu{
+
+    position: absolute;
+    border: solid 1px black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 100%;
+    height: 15%;
+    background: linear-gradient(to right, rgb(95, 95, 155) ,rgb(51, 51, 121), rgb(102, 104, 170));
+    background-size: 200% 100%;
+    animation: backgroundAnimation 12s infinite;
+
+
+
+}
+.play{
+
+    position: relative;
+    bottom: 78%;
+    font-size: 90px;
+    font-family: fantasy;
+    color: #020927;
+    border-bottom: solid 1px;
+    width: 100%;
+    height: 102%;
+
+
+}
+.linka{
+
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    left: 37%;
+
+}
+a{
+    text-decoration: none;
+}
+.SegMenu{
+
+    position: absolute;
+    width: 15%;
+    height: 180%;
+    top: 30%;
+    background: linear-gradient(to right, rgb(95, 95, 155) ,rgb(51, 51, 121), rgb(102, 104, 170));
+    background-size: 200% 100%;
+    animation: backgroundAnimation 12s infinite;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: none;
+    color: white;
+
+}
+.hiden{
+
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    border: solid 2px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+   background: linear-gradient(to right, rgb(95, 95, 155) ,rgb(51, 51, 121));
+    top: 20%;
+    left: -0.5%;
+    cursor: pointer;
+    
+
+}
+.bar{
+
+    position: relative;
+    width: 60%;
+    border: solid;
+    margin: 6px;
+    
+
+}
+.SegAcao{
+
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    background-color: rgb(184, 179, 179);
+    top: 35%;
+    left: 15%;
+    border: solid 1px;
+    border-radius: 50px;
+    display: none;
+    z-index: 5;
+
+}
+.b{
+
+    position: relative;
+    text-decoration: none;
+    color: black;
+    border-bottom: solid 1px;
+    top: 10%;
+    left: 5%;
+
+}
+.SegRit{
+
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    background-color: rgb(184, 179, 179);
+    top: 40%;
+    left: 15%;
+    border: solid 1px;
+    border-radius: 50px;
+    display: none;
+    z-index: 5;
+
+
+}
+.SegCor{
+
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    background-color: rgb(184, 179, 179);
+    top: 50%;
+    left: 15%;
+    border: solid 1px;
+    border-radius: 50px;
+    display: none;
+    z-index: 5;
+
+
+}
+
+.TitleSeg{
+
+    position: relative;
+    left: 10%;
+    border-bottom: solid;
+    width: 200px;
+
+}
+.rpg,.acao,.rit,.CorrVo,.fps{
+
+    position: relative;
+    left: 10%;
+    border-bottom: solid 1px;
+    width: 200px;
+    cursor: pointer;
+    
+
+}
+.rpg:hover{
+    color: rgb(70, 70, 202);
+}
+.acao:hover{
+    color: rgb(70, 70, 202);
+}
+.rit:hover{
+    color: rgb(70, 70, 202);
+}
+
+.CorrVo:hover{
+    color: rgb(70, 70, 202);
+}
+
+.fps:hover{
+    color: rgb(70, 70, 202);
+}
+.jogo{
+
+    position: relative;
+    border: solid;
+    width: 100px;
+    top: -20%;
+    left: 20%;
+
+
+}
+/*-----------------------------------------------------------------------------------*/
+.content{
+
+    position: absolute;
+    border: solid 1px black;
+    border-radius: 50px;
+    color: white;
+    width: 60%;
+    height: 200%;
+    top: 40%;
+    left: 19.5%;
+    background: linear-gradient(to right, rgb(95, 95, 155) ,rgb(51, 51, 121), rgb(102, 104, 170));
+    background-size: 200% 100%;
+    animation: backgroundAnimation 12s infinite;
+
+    
+    
+}
+@keyframes backgroundAnimation{
+
+        0% { background-position: 0% 50%;}
+        50% { background-position: 100% 50%;}
+        100% { background-position: 0% 50%;}
+
+}
+.intro{
+
+    position: relative;
+    width: 80%;
+    top: 2%;
+    left: 10%;
+    border-bottom: solid 1px;
+    font-size: 25px;
+    font-family: arial;
+    display: flex;
+    
+
+}
+.jg1{
+
+    position: absolute;
+    left: 5%;
+    top: 23%;
+    width: 88%;
+    height: 250px;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: rgb(158, 173, 241);
+
+   
+}
+.titleac{
+
+    position: relative;
+    bottom: 65%;
+    left: 4%;
+    font-size: 25px;
+    
+
+}
+.Segcor{
+
+    position: relative;
+    bottom: 65%;
+    left: 4%;
+    font-size: 25px;
+    color: red;
+}
+.descac{
+
+    position: relative;
+    width: 60%;
+    bottom: 60%;
+    left: 35%;
+    font-size: 20px;
+
+}
+.imgac{
+
+    box-shadow: 0px 10px 10px 5px black;
+    border-radius: 20px;
+    
+
+}
+/*Divisão para cada jogo*/
+/*----------------------------------------------------------------------*/
+.jg2{
+
+    position: absolute;
+    left: 5%;
+    top: 48%;
+    width: 88%;
+    height: 250px;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: rgb(158, 173, 241);
+   
+
+
+}
+
+.titlegta{
+
+    position: relative;
+    bottom: 75%;
+    left: 4%;
+    font-size: 25px;
+
+}
+.descgta{
+
+    position: relative;
+    width: 70%;
+    bottom: 75%;
+    left: 30%;
+    font-size: 20px;
+ 
+}
+.imggta{
+
+    box-shadow: 0px 10px 10px 5px black;
+    border-radius: 20px;
+
+}
+/*-------------------------------------------------------------------------*/
+.jg3{
+
+    position: absolute;
+    left: 5%;
+    top: 73%;
+    width: 88%;
+    height: 250px;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: rgb(158, 173, 241);
+    
+    
+    
+}
+.titledead{
+
+    position: relative;
+    bottom: 65%;
+    left: 4%;
+    font-size: 25px;
+
+}
+.descdead{
+
+    position: relative;
+    width: 70%;
+    bottom: 60%;
+    left: 30%;
+    font-size: 20px;
+
+}
+.imgdead{
+
+    box-shadow: 0px 10px 10px 5px black;
+    border-radius: 20px;
+
+}
+@media(max-width:1920px){
+
+    .content{height: 150%;}
+    .jg1{top: 20%;}
+    .jg2{top: 45%;}
+    .jg3{top: 70%;}
+    .play{top: -40%;bottom: 0; padding-bottom: 0; height: 70%;}
+
+}
