@@ -37,6 +37,7 @@ header ul{
     gap: 20px;
     margin: 0;
     padding: 0;
+    font-family: "DM Sans", sans-serif;
 }
 li{
 
@@ -74,15 +75,25 @@ main .tit{
     width: 500px;
     margin-bottom: 20px;
     font-family: "Playfair Display", serif;
-}.titContent{color: var(--titulos-vinho);font-family: "Cormorant Garamond", sans-serif;font-size: 75px;}
+
+}
+main i{
+
+    color: var(--titulos-vinho);
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 75px;
+
+}
+
 .PrinInstru{
 
-    display: flexbox;
+    display: flex;
     position: absolute;
     top: 20%;
     left: 70%;
     width: 250px;
     height: 450px;
+    z-index: -5;
 
 }
 .text{
