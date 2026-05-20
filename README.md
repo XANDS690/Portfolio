@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Este é meu portfólio
 Ainda estou fazendo alterações nele conforme vou estudando e me aprimorando na programação.
 
@@ -13,3 +14,6 @@ PlayWiki = folder with my gaming website
 img = all images used in index.html
 index.html = main portfolio file
 ststyle.css = portfolio styling (index.html)
+=======
+Meu projeto(Portfólio)
+>>>>>>> 5b5c700aaa5cc178508994ff4d59188fb73df8be
