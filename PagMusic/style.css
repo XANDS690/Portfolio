@@ -9,6 +9,7 @@
     --titulos-vinho: #8b3a2a;
     --texto-secundario: #6b6359;
 }
+/*==========================================================================================*/
 body{
     background-color: var(--fundo-principal);
     font-family: 'Arial', sans-serif;
@@ -50,6 +51,7 @@ a{
     text-decoration: none;
     color: var(--texto-fundo-escuro);
 }
+/*==========================================================================================*/
 main{
     padding: 40px;
     display: flex;
@@ -64,7 +66,7 @@ main h4{
     color: var(--dourado-principal);
     margin-bottom: 20px;
     left: 11%;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans';
     font-weight: 100;
     font-size: 12px;    
 }
@@ -84,6 +86,7 @@ main i{
     font-size: 75px;
 
 }
+/*==========================================================================================*/
 
 .PrinInstru{
 
@@ -136,6 +139,8 @@ main i{
 
     font-family: "DM Sans", sans-serif;
     font-weight: 100;
+    position: relative;
+
 
 }
 .infoMedium h2{
@@ -144,10 +149,22 @@ main i{
     text-align: center;
     display: flex;
     position: relative;
-    font-family: "cormorant garamond", serif;
+    font-family: "Cormorant Garamond", serif;
     font-size: 60px;
     font-weight: 100;
     margin: 0 0 0 0;
     color: var(--dourado-principal);
+
+}
+/*==========================================================================================*/
+nav{
+
+    display: flex;
+    position: absolute;
+    border: solid 1px;
+    width: 90%;
+    height: 60%;
+    left: 5%;
+    top: 120%;
 
 }
