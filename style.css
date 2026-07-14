@@ -80,7 +80,7 @@ a{
 
     position: absolute;
     width: 60%;
-    height: 200%;
+    height: 240%;
     top: 80%;
     left: 20%;
     /*background-color: rgb(36, 36, 54);*/
@@ -224,7 +224,7 @@ a{
     width: 90%;
     font-size: 20px;
 
-}.pro1,.pro2,.pro3{
+}.pro1,.pro2,.pro3,.pro4{
 
     font-size: 15px;
 
@@ -242,6 +242,12 @@ a{
 
 
 }
+.pro4{
+
+    position: absolute;
+    top: 320%;
+
+}
 .imgrenova{
 
     position: absolute;
@@ -253,6 +259,11 @@ a{
     position: absolute;
     top: 235%;
 
+
+}.imgmusic{
+
+    position: absolute;
+    top: 340%;
 
 }
 @media (max-width: 412px) {
