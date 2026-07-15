@@ -252,7 +252,7 @@ a{
 
     position: absolute;
     top: 120%;
-
+    
 
 }.imgrenova1{
 
@@ -260,7 +260,12 @@ a{
     top: 235%;
 
 
-}.imgmusic{
+}.imgrenova:hover,.imgrenova1:hover,.imgmusic:hover{
+
+    box-shadow: #667eea 5px 5px 5px 1px;
+
+}
+.imgmusic{
 
     position: absolute;
     top: 340%;
