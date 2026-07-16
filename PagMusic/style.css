@@ -163,8 +163,26 @@ nav{
     position: absolute;
     border: solid 1px;
     width: 90%;
-    height: 60%;
+    height: 80%;
     left: 5%;
     top: 120%;
+
+}
+.princi{
+
+    position: relative;
+    display: flex;
+    height: 100%;
+    background-color: var(--texto-fundo-escuro);
+    width: 35%;
+    color: white; 
+    flex-direction: column;
+
+}.princi p{
+
+    position: relative;
+    left: 10%;
+    width: 60%;
+    top: 15%;
 
 }
