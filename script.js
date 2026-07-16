@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('✅ Carrossel carregado!');
     
     let atualSlide = 0;
-    const totalSlides = 3;
+    const totalSlides = 4;
     
     // Elementos
     const habContainer = document.querySelector('.Hab1');
