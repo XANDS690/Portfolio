@@ -178,11 +178,37 @@ nav{
     color: white; 
     flex-direction: column;
 
-}.princi p{
+}.princi:hover{
+
+    opacity: 0.9;
+
+}
+.princi p{
 
     position: relative;
     left: 10%;
     width: 60%;
     top: 15%;
+
+}.SegPrinci{
+
+
+    position: absolute;
+    display: flex;
+    width: 185%;
+    height: 99.5%;
+    left: 100%;
+
+}.SegPrinci div{
+
+    border: solid 1px black;
+    border-right: none;
+    position: relative;
+    display: flex;
+    color: black;
+    left: 0%;
+    width: 50%;
+    height: 100.3%;
+
 
 }
