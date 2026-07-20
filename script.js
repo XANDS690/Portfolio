@@ -1,52 +1,57 @@
 // Espera o HTML carregar completamente
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('✅ Carrossel carregado!');
-    
-    let atualSlide = 0;
-    const totalSlides = 4;
-    
-    // Elementos
-    const habContainer = document.querySelector('.Hab1');
-    
+console.log('✅ Carrossel carregado!');
+let atualSlide = 0;
+const totalSlides = 4;
+let retomarTimeout;
+
+// Elementos
+const habContainer = document.querySelector('.Hab1');
     function updateCarrossel() {
-        const translateX = -(atualSlide * 33.33);
-        habContainer.style.transform = `translateX(${translateX}%)`;
-    
-        console.log('Slide atual:', atualSlide + 1);
-    }
-    
-    window.moveCarrossel = function(direction) {
+    const translateX = -(atualSlide * 33.33);
+    habContainer.style.transform = `translateX(${translateX}%)`;
+    console.log('Slide atual:', atualSlide + 1);
+
+}
+function avancarSlide(direction) {
         atualSlide += direction;
-        
-        if (atualSlide >= totalSlides) {
+    if (atualSlide >= totalSlides) {
             atualSlide = 0;
-        } else if (atualSlide < 0) {
+    } else if (atualSlide < 0) {
             atualSlide = totalSlides - 1;
-        }
-        
-        updateCarrossel();
-    };
-    
-    window.atualSlide = function(index) {
+    }
+updateCarrossel();
+}
+function iniciarAutoPlay() {
+    opera = setInterval(() => {
+avancarSlide(1);
+}, 3000);
+}
+
+window.moveCarrossel = function(direction) {
+    clearInterval(opera);
+    clearTimeout(retomarTimeout);
+    avancarSlide(direction);
+    retomarTimeout = setTimeout(iniciarAutoPlay, 5000);
+};
+
+window.atualSlide = function(index) {
         atualSlide = index - 1;
-        updateCarrossel();
-    };
-    
-    // Auto-play
-    opera: setInterval(() => {
-        moveCarrossel(1);
-    }, 3000);
-    
+updateCarrossel();
+};
 
-    // Teclado
-    document.addEventListener('keydown', function(e) {
-        if (e.key === 'ArrowLeft') moveCarrossel(-1);
-        if (e.key === 'ArrowRight') moveCarrossel(1);
+// Auto-play
+iniciarAutoPlay();
 
 
-    });
+// Teclado
+document.addEventListener('keydown', function(e) {
+if (e.key === 'ArrowLeft') moveCarrossel(-1);
+if (e.key === 'ArrowRight') moveCarrossel(1);
+
+
 });
-
+});
 
 function corMain() {
   let main = document.querySelector('.main1');
